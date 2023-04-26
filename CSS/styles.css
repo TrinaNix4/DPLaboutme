@@ -1,138 +1,183 @@
  body {
-  margin: 0;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-  color: #40514E;
-}
-h1{ /*block element with a width set, then use 0 auto 0 auto to center it*/
-line-height: 2;
-color: #6867AC;
-font-size: 5.625rem;
-margin: 50px auto 0 auto;
-font-family: 'Sacramento', cursive;
-}
-h2{
-  color: #1572A1;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.0rem;
-}
-h3{
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-}
-hr{
-  border: dotted #D1D1D1 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto 100px auto;
-}
-p{
-  line-height: 2;
-}
-a{
-  color: #11999E;
-  font-family: montserat;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-a:hover {
-  color: #EAF6F6;
-}
-.ContactMe{
-  background-color: #D6E5FA;
-}
-.top-container {
-margin-top: 0;
-  padding-top: 50px;
- background-color: #D6E5FA;
- position: relative;
-}
-.middle-container{
-margin: 0;
-padding-bottom: 5px;
-padding-top: 5px;
-background-color: #FDEBF7;
-}
-.bottom-container{
-  margin-bottom: 5px;
-  padding: 15px 0 15px;
-  background-color: #D6E5FA;
-}
-.pro{
-  text-decoration: underline;
-}
-.bottom-cloud{
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-}
-.rainbow{
-  width: 40%;
-}
-.top-cloud{
-  position: absolute;
-  right: 400px;
-  top: 50px;
-}
-.profilepic{
-  width: 40%;
-}
-.skill-row{
-  text-align: left;
-  margin: 100px auto 100px auto;
-  width: 50%;
-}
-.smilingimg{
-  width: 20%;
-  float: left;
-  margin-right: 30px;
-}
-.starimg{
-  width: 30%;
-  float: right;
-  margin-left: 30px;
-}
+   margin: 0;
+   text-align: center;
+   font-family: 'Merriweather', serif;
+   color: #40514E;
+ }
 
-.profile{
-  line-height: 2;
-  text-align: center;
-  margin: 100px auto 100px auto;
-  width: 50%;
-}
-.copyright{
-  font-size: .75rem;
-  padding: 20px 0 5px 0;
-}
-.btn {
-  background: #8c6cb0;
-  background-image: -webkit-linear-gradient(top, #8c6cb0, #d8a8f0);
-  background-image: -moz-linear-gradient(top, #8c6cb0, #d8a8f0);
-  background-image: -ms-linear-gradient(top, #8c6cb0, #d8a8f0);
-  background-image: -o-linear-gradient(top, #8c6cb0, #d8a8f0);
-  background-image: linear-gradient(to bottom, #8c6cb0, #d8a8f0);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Montserrat;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-.btn:hover {
-  background: #d8db83;
-  background-image: -webkit-linear-gradient(top, #d8db83, #979e5f);
-  background-image: -moz-linear-gradient(top, #d8db83, #979e5f);
-  background-image: -ms-linear-gradient(top, #d8db83, #979e5f);
-  background-image: -o-linear-gradient(top, #d8db83, #979e5f);
-  background-image: linear-gradient(to bottom, #d8db83, #979e5f);
-  text-decoration: none;
-}
-.intro{
-  width: 75%;
-  margin: auto;
-}
-.contact-message{
-  width: 40%;
-  margin: 40px auto 100px;
-}
+ h1 {
+   /*block element with a width set, then use 0 auto 0 auto to center it*/
+   line-height: 2;
+   color: #6867AC;
+   font-size: 5.625rem;
+   margin: 50px auto 0 auto;
+   font-family: 'Sacramento', cursive;
+ }
+
+ h2 {
+   color: #1572A1;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 2.0rem;
+ }
+
+ h3 {
+   color: #11999E;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ hr {
+   border: dotted #D1D1D1 6px;
+   border-bottom: none;
+   width: 4%;
+   margin: 100px auto 100px auto;
+ }
+
+ p {
+   line-height: 2;
+ }
+
+ a {
+   color: #11999E;
+   font-family: montserat;
+   margin: 10px 20px;
+   text-decoration: none;
+ }
+
+ a:hover {
+   color: #EAF6F6;
+ }
+
+ .ContactMe {
+   background-color: #D6E5FA;
+ }
+
+ .top-container {
+   margin-top: 0;
+   padding-top: 50px;
+   background-color: #D6E5FA;
+   position: relative;
+ }
+
+ .middle-container {
+   margin: 0;
+   padding-bottom: 5px;
+   padding-top: 5px;
+   background-color: #FDEBF7;
+ }
+
+ .bottom-container {
+   margin-bottom: 5px;
+   padding: 15px 0 15px;
+   background-color: #D6E5FA;
+ }
+
+ .pro {
+   text-decoration: underline;
+ }
+
+ .bottom-cloud {
+   position: absolute;
+   left: 300px;
+   bottom: 300px;
+ }
+
+ .rainbow {
+   width: 40%;
+ }
+
+ .top-cloud {
+   position: absolute;
+   right: 400px;
+   top: 50px;
+ }
+
+ .profilepic {
+   width: 40%;
+ }
+
+ .skill-row {
+   text-align: left;
+   margin: 100px auto 100px auto;
+   width: 50%;
+ }
+
+ .smilingimg {
+   width: 20%;
+   float: left;
+   margin-right: 30px;
+ }
+
+ .starimg {
+   width: 30%;
+   float: right;
+   margin-left: 30px;
+ }
+
+ .profile {
+   line-height: 2;
+   text-align: center;
+   margin: 100px auto 100px auto;
+   width: 50%;
+ }
+
+ .copyright {
+   font-size: .75rem;
+   padding: 20px 0 5px 0;
+ }
+
+ .btn {
+   background: #8c6cb0;
+   background-image: -webkit-linear-gradient(top, #8c6cb0, #d8a8f0);
+   background-image: -moz-linear-gradient(top, #8c6cb0, #d8a8f0);
+   background-image: -ms-linear-gradient(top, #8c6cb0, #d8a8f0);
+   background-image: -o-linear-gradient(top, #8c6cb0, #d8a8f0);
+   background-image: linear-gradient(to bottom, #8c6cb0, #d8a8f0);
+   -webkit-border-radius: 8;
+   -moz-border-radius: 8;
+   border-radius: 8px;
+   font-family: Montserrat;
+   color: #ffffff;
+   font-size: 20px;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
+ }
+
+ .btn:hover {
+   background: #d8db83;
+   background-image: -webkit-linear-gradient(top, #d8db83, #979e5f);
+   background-image: -moz-linear-gradient(top, #d8db83, #979e5f);
+   background-image: -ms-linear-gradient(top, #d8db83, #979e5f);
+   background-image: -o-linear-gradient(top, #d8db83, #979e5f);
+   background-image: linear-gradient(to bottom, #d8db83, #979e5f);
+   text-decoration: none;
+ }
+
+ .intro {
+   width: 75%;
+   margin: auto;
+ }
+
+ .contact-message {
+   width: 40%;
+   margin: 40px auto 100px;
+ }
+
+ th,
+ td {
+   border: purple solid 3px;
+   padding: 8px;
+   font-size: small;
+   white-space: nowrap;
+ }
+
+ table {
+   border-collapse: collapse;
+   margin: 0px 100px 75px 0px;
+
+ }
+
+ th {
+   font-size: large;
+   font-weight: bold;
+   text-align: center;
+ }
