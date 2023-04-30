@@ -167,7 +167,7 @@
    border: purple solid 3px;
    padding: 8px;
    font-size: small;
-   white-space: nowrap;
+   white-space: normal;
  }
 
  table {
